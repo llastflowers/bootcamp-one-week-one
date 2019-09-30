@@ -1,0 +1,20 @@
+.strip-mall {
+    display: flex;
+    align-items: flex-start;
+    background: lightblue;
+    height: 400px;
+}
+
+.store {
+    height: 100px;
+    width: 100px;
+    border: dotted 1px lightslategrey;
+    background: lightgray;
+}
+
+.tower {
+    height: 400px;
+    width: 100px;
+    border: dotted 1px lightslategrey;
+    background: lightgray;
+}
