@@ -3,8 +3,10 @@ import { isCorrect } from './functions.js';
 const myButton = document.getElementById('action-button');
 
 myButton.onclick = () => {
-    alert('Welcome to my quiz!');
-    const myConfirmation = confirm('Do you want to take my quiz?');
+    //alert("Hi! What's your name?");
+    const userName = prompt("Hi! What's your name?");
+
+    const userConfirmation = confirm('Welcome, ' + userName + '. Do you want to take my quiz?');
     // console.log(myConfirmation);
 
     const userAnswer1 = prompt('Is Gary my best friend? (Yes/No)');
@@ -40,6 +42,8 @@ myButton.onclick = () => {
     if (userIsCorrect3) {
         alert("That's right! Why bother?");
     } else {
-        alert('Nope, I never do!');
+        alert('Nope, why would I do that?');
     }
+    
+    const userCompleted = confirm("That's it, " + userName + '. Thanks for taking my quiz!');
 };

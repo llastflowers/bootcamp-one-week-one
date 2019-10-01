@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://images8.alphacoders.com/661/thumb-1920-661972.png");
+}
+
+.banner {
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 50px 500px;
+    border-radius: 20px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px lightgrey;
+    color: darkred
+}
+
+.h2 {
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+.quiz {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(219, 0, 0, 0.80);
+    border: dotted 2px white;
+    border-radius: 20px;
+    padding: 5px 20px 20px 20px;
+    margin: 90px 500px;
+    height: 400px;
+}
+
+p {
+    width: 650px;
+    font-size: 30px;
+    font-family: Verdana;
+    color: white;
+}
+
+p.center {
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Helvetica;
+    padding: 20px 15px 15px 15px;
+    background-color: white;
+}

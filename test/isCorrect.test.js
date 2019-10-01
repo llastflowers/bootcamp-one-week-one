@@ -3,10 +3,10 @@
 import { isCorrect } from '../functions.js';
 const test = QUnit.test;
 
-test('isCorrect should return true if the user says yes', function(assert) {
+test('isCorrect should return true if the user says no', function(assert) {
     //Arrange
     // Set up your parameters and expectations
-    const userAnswer = 'yes';
+    const userAnswer = 'no';
 
     //Act 
     // Call the function you're testing and set the result to a const
@@ -18,10 +18,10 @@ test('isCorrect should return true if the user says yes', function(assert) {
     assert.equal(userAnswerIsCorrect, true);
 });
 
-test('isCorrect should return false if the user says no', function(assert) {
+test('isCorrect should return false if the user says yes', function(assert) {
     //Arrange
     // Set up your parameters and expectations
-    const userAnswer = 'no';
+    const userAnswer = 'yes';
 
     //Act 
     // Call the function you're testing and set the result to a const
