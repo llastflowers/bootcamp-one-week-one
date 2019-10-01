@@ -4,13 +4,15 @@ body {
 
 .banner {
     background-color: rgb(255, 255, 255, 0.5);
-    margin: 50px 500px;
+    margin: 30px 500px;
     border-radius: 20px;
+    height: 200px;
 }
 
 .h1 {
     display: flex;
     justify-content: center;
+    padding: 10px 0px 0px 0px;
     font-family: Helvetica;
     font-size: 75px;
     text-transform: uppercase;
@@ -23,6 +25,8 @@ body {
     font-weight: lighter;
     display: flex;
     justify-content: center;
+    font-size: 30px;
+    font-family: Verdana;
 }
 
 .quiz {
@@ -34,28 +38,38 @@ body {
     background-color: rgba(219, 0, 0, 0.80);
     border: dotted 2px white;
     border-radius: 20px;
-    padding: 20px 20px 20px 10px;
-    margin: 90px 500px;
-    height: 400px;
+    padding: 20px 20px 40px 10px;
+    margin: 20px 500px;
+    height: 580px;
 }
 
-p {
-    width: 700px;
+.center {
+    text-align: center;
     font-size: 30px;
     font-family: Verdana;
     color: white;
-    margin: 10px 50px 40px 50px;
 }
 
-p.center {
-    text-align: center;
-    font-size: 40px;
+.info {
+    width: 700px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: white;
+    margin: 10px 50px 30px 50px;
 }
 
 .button {
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Helvetica;
     padding: 15px 15px 15px 15px;
     background-color: white;
+}
+
+ul,
+ol,
+li {
+    font-size: 20px;
+    font-family: Verdana;
+    color: white;
 }

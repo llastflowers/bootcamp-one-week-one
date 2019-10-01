@@ -3,11 +3,10 @@ import { isCorrect } from './functions.js';
 const myButton = document.getElementById('action-button');
 
 myButton.onclick = () => {
-    //alert("Hi! What's your name?");
     const userName = prompt("Hi! What's your name?");
 
     const userConfirmation = confirm('Welcome, ' + userName + '. Do you want to take my quiz?');
-    // console.log(myConfirmation);
+    //console.log(myConfirmation);
 
     const userAnswer1 = prompt('Is Gary my best friend? (Yes/No)');
     const lowercaseUserAnswer1 = userAnswer1.toLowerCase();
@@ -21,7 +20,7 @@ myButton.onclick = () => {
         alert('No way, I hate that guy!');
     }
 
-    const userAnswer2 = prompt("Is my best friend's name Squirtle? (Yes/No)");
+    const userAnswer2 = prompt("Is my #1 best friend's name Squirtle? (Yes/No)");
     const lowercaseUserAnswer2 = userAnswer2.toLowerCase();
     const trimmedLowercaseUserAnswer2 = lowercaseUserAnswer2.trim();
 
